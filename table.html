@@ -1,0 +1,382 @@
+<html>
+
+<head><title>Time table</title>
+<style type="text/css">
+
+	
+	#nav
+		{
+		background-color:#222;
+		}
+	#nav_wrapper
+			{
+
+			width:960px;
+			margin:3% auto;
+	        text-align:center;
+		}
+	#nav ul{
+		list-style-type:none;
+		padding:0;
+		margin:0;
+		position:relative;
+	}
+	#nav ul li
+		{
+		display: inline-block;
+		}
+	#nav ul li:hover
+	{
+		background-color:#333;
+	}
+	#nav ul li a,visited
+	{
+	color:#ccc;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	}
+	#nav ul li a:hover
+	{
+	color:#ccc;
+	
+	background-color:black;
+	text-decoration:none;
+	box-shadow: 4px 4px 4px ;
+	
+	}
+	#nav ul li:hover ul
+	{
+	display:block;
+	 
+	}
+	#nav ul ul
+	{
+	display:none;
+	position:absolute;
+	background-color:#333;
+	 
+	border-top:0;
+	margin-left:- 5px;
+	}
+	#nav ul ul li
+	{
+	display:block;
+	}
+	 #nav ul ul li a,visited
+	 {
+	  
+	 color:#ccc;
+	 
+	 
+	 }
+	 
+ 
+
+#tick
+{
+float:left;
+width:270;
+height:790;
+ 
+color:black;
+font-family:Calligraphic;
+font-size:20;
+link:black;
+}
+#tick :hover
+	{
+		font-size:21;
+		color:red;
+		 margin-top: 10px;
+		 margin-left:15px;
+         
+ 
+
+
+		
+	} 
+	
+	
+#tickk
+{
+float:right;
+ width:200;
+color:black;
+ 
+font-family:Calligraphic;
+font-size:20;
+
+
+}
+ 
+ input[type="button"] 
+{
+ 
+background-color: black;
+color:white ;
+border-radius: 5px;
+padding: 5px;
+font-family:Calligraphic;
+margin-top: 4px;
+}
+
+input[type="button"]:hover {
+border-radius: 5px;
+background-color: black;
+color: white;
+cursor: pointer;
+   margin-top: 2px;
+   margin-left:2px;
+}
+#bu
+{
+float:left;
+}
+#bu2
+{
+float:right;
+}
+
+
+#search {
+	float: right;
+	 
+	padding: 10px 30px 0px 0px;
+}
+
+ #search form {
+	float: right;
+	margin: 0;
+	padding: 4px 0px 0 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search input {
+	float: left;
+	 
+	font: 12px Georgia, "Times New Roman", Times, serif;
+}
+
+ 
+
+#search-submit {
+	height: 21px;
+	margin-left: 1px;
+	 
+	background: #573D26;
+	border: none;
+	color: #FFFFFF;
+}
+
+
+#tack
+{
+float:left;
+
+}
+	 </style>		
+		</head >
+		<body style="background-image:url(pic/2.jpg); background-attachment:scroll;">
+ 			
+		<div> <center> <img  id="img1"   src="pic/loo.png" width="700" height="200" /><br><img  id="img1"   src="pic/head.png" width="700" height="50" /></center></div>
+				<div id="search">
+			 
+				<fieldset>
+				 
+				<form id="kk">
+			<input type="text" name="val"  >
+			
+			<input type="button" name="ok"  id="search-submit" value="search" onclick="best()"/>
+		</form></fieldset>
+			 
+		</div>
+		
+		<div id="nav">  <a href = "javascript:history.back()"> <input type="button" id="bu" name="Back" value="Back"  /> </a> <a href = "javascript:history.forward()"><input type="button" id="bu2" name="Forward" value="Forward" /> </a> 	 
+				<div id="nav"> 
+				    <div id="nav_Wrapper"> 
+							<ul>
+								<li><a href="ECOM.php"> Home</a></li>
+								
+								<li><a href="hist.HTML">History</a></li>
+								    
+								<li><a href="loc.HTML">Location</a></li>
+										
+								<li><a href="about.HTML">About us </a></li>		       
+								 
+								<li><a href="contact.HTML">Contact us </a></li>
+                                <li><a href="#.HTML">Unique Animals  </a>
+										<ul>
+										<li><a href="ANIMAL1.html">Walya</a></li>
+										<li><a href="ANIMAL2.html">Chilada Zinjero</a></li>
+										<li><a href="ANIMAL3.html">Red Fox(Key Kebero)</a></li>
+									</ul>		</li>							
+							</ul>
+					 
+			 	
+			         </div>
+					 
+			    </div>
+		</div><fieldset><legend>Buy your thicket</legend>
+		<fieldset><p><center><b><i>Every Week time program</b></i></center></p>
+		<center>
+<table border="1">
+<tr>
+<td>From to</td>
+<td>Monday</td>
+<td>Tuesday</td>
+<td>Wednesday</td>
+<td>Thursday</td>
+<td>Friday</td>
+<td>Saturday</td>
+<td>Sunday</td>
+
+</tr>
+<tr>
+
+ 
+<td>Adiss Abeba</td>
+<td>Semen Mounten</td>
+<td>aksum</td>
+<td>lalibel</td>
+<td>harer</td>
+<td>nechisar</td>
+<td>Awasa</td>
+<td>NO-Trip</td>
+</tr>
+ 
+
+ 
+ 
+</table>
+<p><center><b><i>Price</b></i></center></p>
+<table border="1">
+<tr><td>From  </td> <td>To</td> <td> Price</td>
+<tr><td>Addis Abeba</td> <td>Semen Mounten</td><td>700 birr</td></tr>
+<tr><td>Addis Abeba</td> <td>aksum</td><td>1000 birr</td></tr>
+<tr><td>Addis Abeba</td><td>lalibel</td><td>800 birr</td></tr>
+<tr><td>Addis Abeba</td><td>harer</td><td>1000 birr</td></tr>
+<tr><td>Addis Abeba</td><td>nechisar</td><td>900 birr</td></tr>
+<tr><td>Addis Abeba</td><td>Awasa</td><td>500 birr</td></tr>
+<tr><td>Addis Abeba</td><td>NO-Trip</td><td>0 birr</td></tr>
+</tr>
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+</table>
+<p><i><b>To buy a Ticket Pleasse Fill the form below</b></i></p>
+<form name="val" ><p>First Name<input type="text" name="fname" /></p><p>
+LAst Name<input type="text" name="lname" /></p>
+<p>
+Address<input type="text" name="add" /></p>
+<p>
+E-mail<input type="text" name="email" /></p>
+Sex </p><input type="radio" name="male" value="male" />Male 
+<input type="radio" name="male" value="male" />Male</p>
+<p>Set Time For <select name="dropdown">
+<option value="Mondey"selected>Mondey</option>
+<option value="Thursday">Thursday</option>
+<option value="Wednesday">Wednesday</option>
+<option value="Thursday">Thursday</option>
+<option value="Friday">Friday</option>
+<option value="Saturday">Saturday</option>
+ 
+  
+</select>
+  
+<p>
+<br /> Amount of Thicket:
+				<select name="amount" id="select">
+					<option value="1" selected="selected">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+				</select><br/ ><br/ >
+Account Number<input type="text" name="acc" /></p>
+
+<input type="button" name="name" value="BUY " onclick="return(validet())" />
+</form>	</fieldset>	</fieldset>
+
+<script type="text/javascript">
+function validet()
+{
+ 
+   var k=/[0123456789]/;
+    var x =document.val. fname.value;
+	  var q =document.val. acc.value;
+	    var w =document.val. add.value;
+    var y =document.val.lname.value;
+	var z =document.val.email.value;
+	  var a=z.indexOf('@');
+	  var d=z.indexOf('.');
+   if(x.length==0)
+	{
+      alert("Please Enter Your First  name");
+	  document.val.username.focus();
+      return false;
+	}
+	 if(y.length==0)
+	{
+      alert("Please Enter Last Name");
+	  document.val.lname.focus();
+      return false;
+	}
+	 if(w.length==0)
+	{
+      alert("please Enter Your address");
+	  document.val.add.focus();
+      return false;
+	}
+	 if(q.length==0)
+	{
+      alert("please Enter Account Number");
+	  document.val.acc.focus();
+      return false;
+	}
+	 
+	 
+	else if(z.length==0)
+	{
+	alert("please enter email");
+	document.val.email.focus();
+	return false;
+	}
+	else if(a<1||(d-a)<2)
+	{
+	alert("Please Enter Valid Email") ;
+	document.val.email.focus();
+	return false;
+	}
+	else
+	{
+	  alert("Your thicket has been successfull buyed");
+	  return false;
+	}
+	return true;
+}
+</script>
+
+		</body>
+		</html>
+		
